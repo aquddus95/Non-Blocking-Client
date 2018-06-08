@@ -20,6 +20,8 @@ OK\n
 
 
 
+
+
 -PUT request: The put request allows the client to upload a file to the server. 
 To issue a PUT request to the server the following protocol for this request must be followed
 
@@ -31,6 +33,8 @@ If the server did not reply with an error response, the put request was successf
 OK\n
 
 
+
+
 -LIST request: The list request allows the client to get a list of file names on the server. 
 To issue a LIST request to the server the following protocol for this request must be followed
 
@@ -40,6 +44,8 @@ If the server did not reply with an error response, the list request was success
 
 OK\n
 [Message Size][List of file names on the server]
+
+
 
 
 -DELETE request: The delete request allows the client to delete a file on the server. 
