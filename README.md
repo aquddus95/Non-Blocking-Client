@@ -9,6 +9,7 @@ To issue a GET request to the server the following protocol for this request mus
 GET “file name”\n
 The response from the server can be of two types either an error message response (the format of this response is uniform for either a GET, PUT, LIST or DELETE request) or an OK response which returns the contents of the file requested
 For the error message (uniform for all requests) the following format that is followed for this message is shown below
+
 Error\n
 [“a customized error message based off the request made”]
 
@@ -21,6 +22,7 @@ OK\n
 
 -PUT request: The put request allows the client to upload a file to the server. 
 To issue a PUT request to the server the following protocol for this request must be followed
+
 PUT “file name”\n
 [File Size][File Contents]
 
@@ -31,6 +33,7 @@ OK\n
 
 -LIST request: The list request allows the client to get a list of file names on the server. 
 To issue a LIST request to the server the following protocol for this request must be followed
+
 LIST\n
 
 If the server did not reply with an error response, the list request was successful and the response from the server will be as follows (message size he refers to how long the message is that contains the list of file names)
@@ -41,6 +44,7 @@ OK\n
 
 -DELETE request: The delete request allows the client to delete a file on the server. 
 To issue a DELETE request to the server the following protocol for this request must be followed
+
 DELETE “filename”\n
 
 If the server did not reply with an error response, the delete was successful and the response from the server is as follows
