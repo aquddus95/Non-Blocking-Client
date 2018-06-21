@@ -22,7 +22,8 @@ Otherwise the get request was successful and the response from the server will b
 
 **OK\n**
 
-**[File Size][Contents of the File]**\
+**[File Size][Contents of the File]**
+
 
 -PUT request: The put request allows the client to upload a file to the server.
 
@@ -35,6 +36,7 @@ To issue a PUT request to the server the following protocol for this request mus
 If the server did not reply with an error response, the put request was successful and the response from the server will be as follows
 
 **OK\n**
+
 
 -LIST request: The list request allows the client to get a list of file names on the server.
 
