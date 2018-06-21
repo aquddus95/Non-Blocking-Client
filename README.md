@@ -2,9 +2,9 @@
 
 The follow application is an implementation of a client from the client-server model. The client follows a custom text protocol that explains how a user can make a request to the server and what the format of the request needs to be in order for the server to give a correct response. Moreover, the client implementation accounts for non-blocking input and output so any writes or reads to and from the server are all non-blocking. Since the reads and writes are non-blocking, we must keep track of where we left off in our read/write when trying to communicate to the server through the socket created to connect the client and server.
 
-## Text Protocol for the Client:
+ Text Protocol for the Client:
 
-###-GET request: The get request allows the client to ask the server for a specific file on the server and get the contents of the file as well.
+### -GET request: The get request allows the client to ask the server for a specific file on the server and get the contents of the file as well.
 
 To issue a GET request to the server the following protocol for this request must be followed
 
