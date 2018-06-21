@@ -22,9 +22,7 @@ Otherwise the get request was successful and the response from the server will b
 
 **OK\n**
 
-**[File Size][Contents of the File]**
-
-
+**[File Size][Contents of the File]**\
 
 -PUT request: The put request allows the client to upload a file to the server.
 
@@ -63,7 +61,6 @@ If the server did not reply with an error response, the delete was successful an
 **OK\n**
 
 
-<br />
 **Below are examples of how to make the requests for GET, PUT, LIST and DELETE**
 
 ./client server:port GET The.Social.Network.2010.1080p.BluRay.x265.10bit-z97.mp4 social\_network.mp4
