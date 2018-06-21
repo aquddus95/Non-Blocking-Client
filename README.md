@@ -51,7 +51,6 @@ If the server did not reply with an error response, the list request was success
 **[Message Size][List of file names on the server]**
 
 
-
 -DELETE request: The delete request allows the client to delete a file on the server.
 
 To issue a DELETE request to the server the following protocol for this request must be followed
@@ -63,7 +62,7 @@ If the server did not reply with an error response, the delete was successful an
 **OK\n**
 
 
-**Below are examples of how to make the requests for GET, PUT, LIST and DELETE**
+## **Below are examples of how to make the requests for GET, PUT, LIST and DELETE**
 
 ./client server:port GET The.Social.Network.2010.1080p.BluRay.x265.10bit-z97.mp4 social\_network.mp4
 
