@@ -4,7 +4,7 @@ The follow application is an implementation of a client from the client-server m
 
 
 
-### -GET request: The get request allows the client to ask the server for a specific file on the server and get the contents of the file as well.
+## -GET request: The get request allows the client to ask the server for a specific file on the server and get the contents of the file as well.
 
 To issue a GET request to the server the following protocol for this request must be followed
 
